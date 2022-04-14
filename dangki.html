@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM ĐĂNG KÝ</title>
+</head>
+<style>
+    h3{
+        text-align: center;
+        font-size: 28px;
+    }
+    .form-control{
+        margin: 3px 0;
+        padding: 5px;
+        border: none;
+        width: 95%;
+        border-radius: 3px;
+        box-shadow: 0 0 3px rgb(238, 100, 9);
+        color: rgb(14, 17, 216);
+        display: block;
+        outline: none;
+    }
+    .form-control:focus{
+        box-shadow: 0 9 3px rgb(9, 130, 179);
+    }
+    .button{
+        margin: 10px;
+        margin-left: 45%;
+        border: none;
+        background-color: blue;
+        border-radius: 3px;
+        box-shadow: 0 0 3px rgb(219, 35, 81);
+        padding: 5px 10px;
+    }
+    .button:focus{
+        box-shadow: 0 0 3px rgb(146, 5, 104);
+        color: rgb(131, 8, 8);
+    }
+</style>
+<body>
+    <h3>ĐĂNG KÝ THÀNH VIÊN</h3>
+    <form>
+        <div class="form-group">
+            <label>Mã sinh viên</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Họ và tên</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Giới tính</label>
+            <input type="radio" name="gioitinh" value="1"> Nam
+            <input type="radio" name="gioitinh" value="2"> Nữ
+        </div>
+        <div class="form-group">
+            <label>Sở thích</label>
+            <input type="checkbox" name="sothich" value="1">Đọc sách
+            <input type="checkbox" name="sothich" value="2">Du lịch
+            <input type="checkbox" name="sothich" value="3">Ẩm thực
+            <input type="checkbox" name="sothich" value="4">Âm nhạc
+            <input type="checkbox" name="sothich" value="5">Khác
+        </div>
+        <div class="form-group">
+            <label>Quốc tịnh</label>
+            <select class="form-control">
+                <option selected >Việt Nam</option>
+                <option >Nhật Bản</option>
+                <option >Thái Lan</option>
+                <option >Mĩ</option>
+                <option >Campuchia</option>
+                <option >Khác</option>
+        </div>
+        <div class="form-group">
+            <label>Ghi chú:</label>
+            <textarea  cols="30" rows="3" class="font-control"></textarea>
+        </div>
+        <div class="form-group">
+            <button class="button">Đăng kí</button>
+        </div>
+    </form>
+</body>
+</html>
+</body>
+</html>
